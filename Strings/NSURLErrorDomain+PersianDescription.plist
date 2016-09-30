@@ -2,7 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>-998</key>
+	<string>اشکالی در ارتباط با سرور پیش آمد</string>
+	<key>-999</key>
+	<string>اتصال قطع شد</string>
+	<key>-1000</key>
+	<string>اتصال به دلیل نامفهوم‌بودن آدرس قطع شد</string>
 	<key>-1001</key>
 	<string>پاسخی از سمت سرور دریافت نشد</string>
+	<key>-1002</key>
+	<string>اتصال به دلیل نامفهوم‌بودن آدرس اسکیم قطع شد</string>
+	<key>-1003</key>
+	<string>اتصال به دلیل یافت‌نشدن آدرس سرور واردشده قطع شد</string>
+	<key>-1004</key>
+	<string>اتصال به دلیل عدم امکان برقراری با سرور قطع شد</string>
+	<key>-1005</key>
+	<string>اتصال به دلیل وجود اشکال در اینترنت دستگاه قطع شد</string>
+	<key>-1006</key>
+	<string>اتصال به دلیل عدم برقراری ارتباط با سرورهای دی‌ان‌اس قطع شد</string>
+	<key>-1007</key>
+	<string>اتصال به دلیل تغییر مسیرهای پیاپی قطع شد</string>
+	<key>-1008</key>
+	<string></string>
+	<key>-1009</key>
+	<string>اتصال به دلیل عدم برقراری اینترنت دستگاه قطع شد</string>
+	<key>-1010</key>
+	<string>اتصال به یک آدرس غیرقابل‌دسترس هدایت شد</string>
+	<key>-1011</key>
+	<string>پاسخ نامعتبری از سوی سرور برای اتصال دریافت شد</string>
+	<key>-1012</key>
+	<string>اتصال به دلیل انصراف کاربر از تایید هویت قطع شد</string>
 </dict>
 </plist>
