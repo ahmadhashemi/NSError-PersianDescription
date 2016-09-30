@@ -4,7 +4,7 @@ Persian description for errors of NSError class.
 
 ## Usage
 
-Whenever you get an NSError object, just write:
+Add all files into your project, import NSError+PersianDescription.h, and wherever you get an NSError object, just write:
 ~~~~
 error.persianDescription;
 ~~~~
