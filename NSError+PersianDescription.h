@@ -1,6 +1,5 @@
 //
 //  NSError+PersianDescription.h
-//  BookInIran
 //
 //  Created by Ahmad on 9/30/16.
 //  Copyright © 2016 Ahmad. All rights reserved.
