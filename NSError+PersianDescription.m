@@ -11,19 +11,19 @@
 
 -(NSString *)persianDescription {
     
-    if (![self.domain isEqualToString:NSURLErrorDomain]) {
+    NSString *fileName = [self.domain stringByAppendingString:@"+PersianDescription"];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"plist"];
+    
+    if (!filePath) {
         return self.localizedDescription;
     }
     
-    NSString *persian = @"";
+    NSDictionary *strings = [[NSDictionary alloc] initWithContentsOfFile:filePath];
+    NSString *codeString = [NSString stringWithFormat:@"%li",(long)self.code];
+    NSString *persian = [strings objectForKey:codeString];
     
-    switch (self.code) {
-        case -1001: // time out
-            persian = @"پاسخی از سمت سرور دریافت نشد";
-            break;
-        default:
-            persian = self.localizedDescription;
-            break;
+    if (!persian) {
+        persian = self.localizedDescription;
     }
     
     return persian;
