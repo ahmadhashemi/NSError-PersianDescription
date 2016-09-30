@@ -20,4 +20,4 @@ To do so, simply find plist file for desired domain in Strings folder, and add a
 **2. Add new domains:**
 To do so, create new plist file in Strings directory, named as [DOMAINNAME]+PersianDescription.plist. Then start adding error codes as keys and persian descriptions as values.
 
-You don't need to touch codes at all if you follow above instructions.
+**You don't need to touch codes at all if you follow above instructions.**
